@@ -1,0 +1,5 @@
+/checkpoints
+/predictions
+.git
+/wandb
+/__*
