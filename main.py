@@ -66,7 +66,10 @@ def set_seed(random_seed):
 
 def main(args):
     wandb.init(
-        name=args.exp_name, project="Xray-Segmentation", entity="ganisokay", config=args
+        name=args.exp_name + "_Resume" if args.resume else args.exp_name,
+        project="Xray-Segmentation",
+        entity="ganisokay",
+        config=args,
     )
 
     set_seed(args.seed)
@@ -82,9 +85,9 @@ def main(args):
     if not os.path.isdir(save_checkpoint):
         os.makedirs(save_checkpoint, exist_ok=True)
 
-    train_transform = A.Resize(512, 512)
-    valid_transform = A.Resize(512, 512)
-    test_transform = A.Resize(512, 512)
+    train_transform = A.Compose([A.Resize(512, 512)])
+    valid_transform = A.Compose([A.Resize(512, 512)])
+    test_transform = A.Compose([A.Resize(512, 512)])
 
     train_dataset = XRayDataset(
         args.data_root, transforms=train_transform, split=f"train{args.fold}"
@@ -118,11 +121,19 @@ def main(args):
         drop_last=False,
     )
 
-    # Model 정의
-    model = models.segmentation.fcn_resnet50(pretrained=True)
+    if args.resume:
+        previous_state = torch.load(os.path.join(save_checkpoint, "best_model.pt"))
+        print("Finished model loading.")
+        start_epoch, model = previous_state["epoch"], previous_state["model"]
+    else:
+        # Model 정의
+        model = models.segmentation.fcn_resnet50(pretrained=True)
 
-    # output class를 data set에 맞도록 수정
-    model.classifier[4] = nn.Conv2d(512, len(CLASSES), kernel_size=1)
+        # output class를 data set에 맞도록 수정
+        model.classifier[4] = nn.Conv2d(512, len(CLASSES), kernel_size=1)
+
+        # 시작 epoch 정의
+        start_epoch = 0
 
     # Loss function 정의
     criterion = nn.BCEWithLogitsLoss()
@@ -138,6 +149,7 @@ def main(args):
         criterion,
         optimizer,
         args.epochs,
+        start_epoch,
         CLASSES,
         args.patience,
         save_checkpoint,
@@ -170,6 +182,7 @@ if __name__ == "__main__":
     # Default Parameter
     parser.add_argument("--seed", type=int, default=1226)
     parser.add_argument("--exp-name", type=str, default="[test]ExpName")
+    parser.add_argument("--resume", type=bool, default=False)
 
     # DataLoader
     parser.add_argument("--fold", type=str, default=1)
