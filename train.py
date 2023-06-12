@@ -17,6 +17,7 @@ def train(
     criterion,
     optimizer,
     epochs,
+    start_epoch,
     classes,
     patience,
     save_dir,
@@ -26,7 +27,7 @@ def train(
     best_epoch = 0
     check_patience = 0
 
-    for epoch in range(epochs):
+    for epoch in range(start_epoch, epochs):
         model.train()
 
         for step, (images, masks) in enumerate(data_loader):
@@ -35,7 +36,7 @@ def train(
             model = model.cuda()
 
             # inference
-            outputs = model(images)['out']
+            outputs = model(images)["out"]
 
             # loss 계산
             loss = criterion(outputs, masks)
@@ -68,13 +69,13 @@ def train(
 
             # Save best model
             output_path = os.path.join(save_dir, "best_model.pt")
-            torch.save(model, output_path)
+            torch.save(dict(epoch=epoch+1, model=model), output_path)
         else:
             check_patience += 1
 
         wandb.log({"VALID DICE": dice, "BEST DICE": best_dice})
-        
-        if epoch > epochs//2 and check_patience >= patience:
+
+        if epoch > epochs // 2 and check_patience >= patience:
             break
 
     print(f"Best performance at epoch: {best_epoch} >> {best_dice:.4f}")
@@ -95,7 +96,7 @@ def validation(epoch, model, data_loader, criterion, classes, thr=0.5):
             images, masks = images.cuda(), masks.cuda()
             model = model.cuda()
 
-            outputs = model(images)['out']
+            outputs = model(images)["out"]
 
             output_h, output_w = outputs.size(-2), outputs.size(-1)
             mask_h, mask_w = masks.size(-2), masks.size(-1)
