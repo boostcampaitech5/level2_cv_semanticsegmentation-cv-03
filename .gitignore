@@ -1,5 +1,5 @@
-/checkpoints
-/predictions
+checkpoints/
+predictions/
 .git
-/wandb
+wandb/
 /__*

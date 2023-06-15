@@ -101,8 +101,11 @@ def main():
     cfg.resume = args.resume
 
     # wandb 설정
+    exp_name = args.config
+    if args.resume:
+        exp_name = exp_name + "_Resume"
     init_kwargs = dict(
-        name=args.config, project="Xray-Segmentation", entity="ganisokay"
+        name=exp_name, project="Xray-Segmentation", entity="ganisokay"
     )
     log_code_name = args.config.replace("[", "").replace("]", "-")
     cfg.wandb_kwargs = dict(
