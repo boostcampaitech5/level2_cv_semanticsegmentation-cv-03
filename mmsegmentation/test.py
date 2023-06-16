@@ -228,8 +228,7 @@ def main():
 
     rles = []
     filename_and_class = []
-    # for idx in tqdm(range(len(df))):
-    for idx in tqdm(range(2)):
+    for idx in tqdm(range(len(df))):
         img_path = df.iloc[idx]["filenames"]
         image_name = img_path.split("/")[-1]
         img = cv2.imread(img_path)
