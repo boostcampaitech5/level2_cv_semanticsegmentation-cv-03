@@ -6,6 +6,7 @@ import numpy as np
 import json
 import torch
 import pandas as pd
+import ttach as tta
 
 CLASSES = [
     "finger-1",
@@ -63,7 +64,7 @@ class XRayDataset(Dataset):
         label_path = row["labelnames"]
 
         image = cv2.imread(image_path)
-        image = image / 255.0
+        # image = image / 255.0
 
         label_shape = tuple(image.shape[:2]) + (len(CLASSES),)
         label = np.zeros(label_shape, dtype=np.uint8)
@@ -88,7 +89,7 @@ class XRayDataset(Dataset):
 
             image = result["image"]
             label = result["mask"] if self.is_train else label
-
+        image = image / 255.0
         image = image.transpose(2, 0, 1)
         label = label.transpose(2, 0, 1)
 
@@ -117,12 +118,12 @@ class XRayInferenceDataset(Dataset):
         image_name = os.path.join(image_path.split("/")[-2], image_path.split("/")[-1])
 
         image = cv2.imread(image_path)
-        image = image / 255.0
+        # image = image / 255.0
 
         if self.transforms is not None:
             result = self.transforms(image=image)
             image = result["image"]
-
+        image = image / 255.0
         image = image.transpose(2, 0, 1)
 
         image = torch.from_numpy(image).float()
