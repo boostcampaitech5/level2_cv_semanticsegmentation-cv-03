@@ -95,10 +95,10 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 ## 🗒️ 프로젝트 결과
 
 - Public
-    <img align="center" src="imgs/public.png" width="800">
+    <img align="center" src="imgs/public.png" width="800" height="80">
 
 - Private
-    <img align="center" src="imgs/private.png" width="800">
+    <img align="center" src="imgs/private.png" width="800" height="80">
 
 ## 🔄️ Directory
 
