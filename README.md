@@ -8,7 +8,7 @@
     </div>
 </p>
 
-## ✨ 팀 소개
+# ✨ 팀 소개
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -51,7 +51,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
-## 💀 프로젝트 소개
+# 💀 프로젝트 소개
 
 <p align="center">
     <picture>
@@ -67,7 +67,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 이번 프로젝트는 `Boostcamp AI Tech` CV 트랙내에서 진행된 대회이며 mean dice coefficient으로 최종평가를 진행하게 됩니다.
 
-## 📆 프로젝트 일정
+# 📆 프로젝트 일정
 
 프로젝트 전체 일정
 
@@ -84,7 +84,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 - 2023.06.14 ~ 2023.06.22 : Model, Image size, Offline Augmentation 실험
 - 2023.06.21 ~ 2023.06.22 : Ensemble
 
-## 👨‍💻 프로젝트 수행
+# 👨‍💻 프로젝트 수행
 
 1. [EDA](https://calico-dance-4bf.notion.site/EDA-db11b32576644efa9dc836a9135b55f0)✔️
 2. [Augmentation](https://calico-dance-4bf.notion.site/Augmentation-5767f538c8ee4cf88462fe1bf2526a96)✔️
@@ -92,15 +92,15 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 4. [중간정리](https://calico-dance-4bf.notion.site/09699a2814c04e83bb391627ab965c01)⭐
 5. [발표자료](https://calico-dance-4bf.notion.site/f0407bed529a4bbbae93d5d6c520ec4f)⭐
 
-## 🗒️ 프로젝트 결과
+# 🗒️ 프로젝트 결과
 
-- Public
-    <img align="center" src="imgs/public.png" width="800" height="80">
+#### Public
+<img align="center" src="imgs/public.png" width="600" height="80">
 
-- Private
-    <img align="center" src="imgs/private.png" width="800" height="80">
+#### Private
+<img align="center" src="imgs/private.png" width="600" height="80">
 
-## 🔄️ Directory
+# 🔄️ Directory
 
 ```bash
 ├── .gitignore
@@ -130,7 +130,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
     └── test.py 
 ```
 
-## ⚙️ 설치
+# ⚙️ 설치
 
 ####  Baseline Code
 ```pip install -r requirements.txt ```
@@ -140,13 +140,14 @@ Link ➡️
 1. [MMSegmentation for our Project](https://calico-dance-4bf.notion.site/MMSegmentation-71f191822d5042129ccbcf7b9384f211)✔️
 2. [Official GitHub](https://github.com/open-mmlab/mmsegmentation)😀
 
-## ⚡️ 빠른 시작
+# ⚡️ 빠른 시작
 
 #### Train
 ``` python train.py --exp-name {실험명} ```
 #### Evaluation
 ``` python test.py --exp-name {실험명} ```
 
-## 🤔 Wrap-Up Report
+# 🤔 Wrap-Up Report
 
 [Wrap-Up Report](https://file.notion.so/f/s/08bebda1-a3bb-4e83-93a9-706133868688/Semantic_Segmentation(%EA%B3%B5%EA%B0%9C%EC%9A%A9).pdf?id=59e780e8-9756-4381-8fc8-69e6383a4c16&table=block&spaceId=34e15efc-e2be-46ba-ae66-9fe65d825d78&expirationTimestamp=1687613606086&signature=pj_ir0N1PZm9B9ZTOH79znr-gxer3yajNNW3qO4-mFU&downloadName=Semantic+Segmentation%28%EA%B3%B5%EA%B0%9C%EC%9A%A9%29.pdf)⭐
+
