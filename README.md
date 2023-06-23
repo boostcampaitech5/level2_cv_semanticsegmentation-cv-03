@@ -16,34 +16,29 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <table>
     <tr>
         <td align="center"><a href="https://github.com/seungki1011"><img src="https://avatars.githubusercontent.com/u/120040458?v=4?s=100" width="100px;" alt=""/><br /><sub><b>김승기</b></sub><br />
-        <a href="https://github.com/boostcampaitech5/level2_objectdetection-cv-03/commits?author=seungki1011" title="Code">💻</a>
-        <a href="https://github.com/boostcampaitech5/level2_objectdetection-cv-03/tree/main/upsampling" title="Data">🔣</a>
-        <a href="https://github.com/boostcampaitech5/level2_objectdetection-cv-03/tree/main/mmdetection/configs/_teamconfig_" title="Infrastructure">🚇</a>
-        <a href="https://github.com/boostcampaitech5/level2_objectdetection-cv-03/commits/main" title="Maintenance">🚧</a>
+        <a href="https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-03/commits?author=seungki1011" title="Code">💻</a>
+        <a href="https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-03/tree/master/utils" title="Tools">🔧</a>
+        <a href="https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-03" title="Maintenance">🚧</a>
         </td>
         <td align="center"><a href="https://github.com/jjjuuuun"><img src="https://avatars.githubusercontent.com/u/86290308?v=4?s=100" width="100px;" alt=""/><br /><sub><b>김준영</b></sub></a><br />
-        <a href="https://github.com/boostcampaitech5/level2_objectdetection-cv-03/commits?author=jjjuuuun" title="Code">💻</a>
-        <a href="https://github.com/boostcampaitech5/level2_objectdetection-cv-03/tree/main/mmdetection/configs/_teamconfig_" title="Infrastructure">🚇</a>
-        <a href="https://github.com/boostcampaitech5/level2_objectdetection-cv-03/commits/main" title="Maintenance">🚧</a>
-        <a href="https://github.com/boostcampaitech5/level2_objectdetection-cv-03" title="projectManagement">📆</a>
+        <a href="https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-03/commits?author=jjjuuuun" title="Code">💻</a>
+        <a href="https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-03#%EF%B8%8F-directory" title="Infrastructure">🚇</a>
+        <a href="https://calico-dance-4bf.notion.site/MMSegmentation-71f191822d5042129ccbcf7b9384f211" title="Tutorial">✅</a>
         </td>
         <td align="center"><a href="https://github.com/helpmeIamnewbie"><img src="https://avatars.githubusercontent.com/u/102274521?v=4?s=100" width="100px;" alt=""/><br /><sub><b>전형우</b></sub></a><br />
-        <a href="https://github.com/boostcampaitech5/level2_objectdetection-cv-03/commits?author=helpmeIamnewbie" title="Code">💻</a>
-        <a href="https://github.com/boostcampaitech5/level2_objectdetection-cv-03" title="Ideas & Planning">🤔</a>
-        <a href="https://github.com/boostcampaitech5/level2_objectdetection-cv-03/pulls?q=" title="Reviewed Pull Requests">👀</a>
-        <a href="https://github.com/boostcampaitech5/level2_objectdetection-cv-03/commits?author=helpmeIamnewbie" title="Tests">⚠️</a>
+        <a href="https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-03/issues/created_by/helpmeIamnewbie" title="Code">💻</a>
+        <a href="https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-03" title="Tools">🔧</a>
+        <a href="https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-03" title="Data">🔣</a>
         </td>
         <td align="center"><a href="https://github.com/CheonJiEun"><img src="https://avatars.githubusercontent.com/u/53997172?v=4?s=100" width="100px;" alt=""/><br /><sub><b>천지은</b></sub></a><br />
-        <a href="https://github.com/boostcampaitech5/level2_objectdetection-cv-03/commits?author=CheonJiEun" title="Code">💻</a>
-        <a href="https://github.com/boostcampaitech5/level2_objectdetection-cv-03/tree/main/upsampling" title="Data">🔣</a>
-        <a href="https://github.com/boostcampaitech5/level2_objectdetection-cv-03/tree/main/mmdetection/configs/_teamconfig_" title="Examples">💡</a>
-        <a href="https://github.com/boostcampaitech5/level2_objectdetection-cv-03/pulls?q=" title="Research">🔬</a>
+        <a href="https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-03/commits?author=CheonJiEun" title="Code">💻</a>
+        <a href="https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-03" title="Data">🔣</a>
+        <a href="https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-03" title="Ideas">🤔</a>
         </td>
         <td align="center"><a href="https://github.com/Eyecaramba"><img src="https://avatars.githubusercontent.com/u/86091292?v=4?s=100" width="100px;" alt=""/><br /><sub><b>신우진</b></sub></a><br />
-        <a href="https://github.com/boostcampaitech5/level2_objectdetection-cv-03/commits?author=Eyecaramba" title="Code">💻</a>
-        <a href="https://github.com/boostcampaitech5/level2_objectdetection-cv-03" title="Ideas & Planning">🤔</a>
-        <a href="https://github.com/boostcampaitech5/level2_objectdetection-cv-03/tree/main/mmdetection/configs/_teamconfig_" title="Infrastructure">🚇</a>
-        <a href="https://github.com/boostcampaitech5/level2_objectdetection-cv-03/pulls?q=" title="Reviewed Pull Requests">👀</a>
+        <a href="https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-03/commits?author=Eyecaramba" title="Code">💻</a>
+        <a href="https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-03" title="Ideas">🤔</a>
+        <a href="https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-03" title="Research">🔬</a>
     </td>
   </tr>
 </table>
