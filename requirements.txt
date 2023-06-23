@@ -1,0 +1,7 @@
+torch==2.0.1
+opencv_python
+pandas
+matplotlib
+tqdm
+scikit-learn
+albumentations
