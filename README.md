@@ -144,5 +144,5 @@ Link ➡️
 
 # 🤔 Wrap-Up Report
 
-[Wrap-Up Report](https://file.notion.so/f/s/08bebda1-a3bb-4e83-93a9-706133868688/Semantic_Segmentation(%EA%B3%B5%EA%B0%9C%EC%9A%A9).pdf?id=59e780e8-9756-4381-8fc8-69e6383a4c16&table=block&spaceId=34e15efc-e2be-46ba-ae66-9fe65d825d78&expirationTimestamp=1687613606086&signature=pj_ir0N1PZm9B9ZTOH79znr-gxer3yajNNW3qO4-mFU&downloadName=Semantic+Segmentation%28%EA%B3%B5%EA%B0%9C%EC%9A%A9%29.pdf)⭐
+[Wrap-Up Report](https://github.com/boostcampaitech5/level2_cv_semanticsegmentation-cv-03/blob/master/Semantic%20Segmentation%20Wrap%20Up.pdf)⭐
 
