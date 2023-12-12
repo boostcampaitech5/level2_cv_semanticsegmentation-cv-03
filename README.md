@@ -81,11 +81,11 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 # 👨‍💻 프로젝트 수행
 
-1. [EDA](https://calico-dance-4bf.notion.site/EDA-db11b32576644efa9dc836a9135b55f0)✔️
-2. [Augmentation](https://calico-dance-4bf.notion.site/Augmentation-5767f538c8ee4cf88462fe1bf2526a96)✔️
-3. [Model](https://calico-dance-4bf.notion.site/Model-c8ddb0c1ddbf41abb5c0a2937da16b61)✔️
-4. [중간정리](https://calico-dance-4bf.notion.site/09699a2814c04e83bb391627ab965c01)⭐
-5. [발표자료](https://calico-dance-4bf.notion.site/f0407bed529a4bbbae93d5d6c520ec4f)⭐
+1. [EDA](https://jjjuuuun.notion.site/EDA-db11b32576644efa9dc836a9135b55f0?pvs=4)✔️
+2. [Augmentation](https://jjjuuuun.notion.site/Augmentation-5767f538c8ee4cf88462fe1bf2526a96?pvs=4)✔️
+3. [Model](https://jjjuuuun.notion.site/Model-c8ddb0c1ddbf41abb5c0a2937da16b61?pvs=4)✔️
+4. [중간정리](https://jjjuuuun.notion.site/09699a2814c04e83bb391627ab965c01?pvs=4)⭐
+5. [발표자료](https://jjjuuuun.notion.site/f0407bed529a4bbbae93d5d6c520ec4f?pvs=4)⭐
 
 # 🗒️ 프로젝트 결과
 
@@ -132,7 +132,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 #### MMSegmentation
 Link ➡️ 
-1. [MMSegmentation for our Project](https://calico-dance-4bf.notion.site/MMSegmentation-71f191822d5042129ccbcf7b9384f211)✔️
+1. [MMSegmentation for our Project](https://jjjuuuun.notion.site/MMSegmentation-71f191822d5042129ccbcf7b9384f211?pvs=4)✔️
 2. [Official GitHub](https://github.com/open-mmlab/mmsegmentation)😀
 
 # ⚡️ 빠른 시작
